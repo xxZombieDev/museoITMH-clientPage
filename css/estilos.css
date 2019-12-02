@@ -1,0 +1,199 @@
+/*--------------------------------------------------------------
+# COLORES
+--------------------------------------------------------------*/
+/* Color Theme Swatches in Hex */
+.ColoresPagina-1-hex { color: #2B96D9; }
+.ColoresPagina-2-hex { color: #FCFFFE; }
+.ColoresPagina-3-hex { color: #6CED58; }
+.ColoresPagina-4-hex { color: #DBD846; }
+.ColoresPagina-5-hex { color: #F7C64F; }
+
+/* Color Theme Swatches in RGBA */
+.ColoresPagina-1-rgba { color: rgba(43, 150, 217, 1); }
+.ColoresPagina-2-rgba { color: rgba(252, 255, 254, 1); }
+.ColoresPagina-3-rgba { color: rgba(108, 237, 88, 1); }
+.ColoresPagina-4-rgba { color: rgba(219, 216, 70, 1); }
+.ColoresPagina-5-rgba { color: rgba(247, 198, 79, 1); }
+
+/* Color Theme Swatches in HSLA */
+.ColoresPagina-1-hsla { color: hsla(203, 69, 50, 1); }
+.ColoresPagina-2-hsla { color: hsla(160, 100, 99, 1); }
+.ColoresPagina-3-hsla { color: hsla(111, 80, 63, 1); }
+.ColoresPagina-4-hsla { color: hsla(58, 67, 56, 1); }
+.ColoresPagina-5-hsla { color: hsla(42, 91, 63, 1); }
+/*Fondo*/
+
+.fondobnex{
+background-image: url(/img/Exposicion/fondobnex.jpg);
+
+
+}
+.fondoareaindex{
+background-image: url(/img/fondoitmh.jpg);
+padding-block-end: 100px;
+
+
+
+}
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+#headerdr {
+  padding: 0px 0px 14px 0;
+  position: fixed;
+  left: 0;
+  background:#2B96D9;
+  top: 0;
+  right: 0;
+  transition: all 0.5s;
+  z-index: 997;
+}
+
+#headerdr hr {
+  border-color: rgba(191,191, 191, 0.8);
+  margin-top: 5px;
+}
+
+.headerdr-top {
+  height: 24px;
+  margin-top: 5px;
+}
+
+.headerdr-top a {
+  color: #fff;
+  font-size: 12px;
+}
+
+.top-head-left ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.top-head-right {
+  text-align: right;
+}
+
+.top-head-right ul li {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.top-head-right ul li a {
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.top-head-right ul li:hover a {
+  color: #88d200;
+}
+
+#headerdr.headerdr-scrolled {
+  background: rgba(43, 150, 217, 0.8);
+  transition: all 0.5s;
+}
+
+@media (max-width: 673px) {
+  #logo {
+    margin-left: 20px;
+  }
+}
+
+#headerdr #logo h1 {
+  font-size: 34px;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+
+#headerdr #logo h1 a, #headerdr #logo h1 a:hover {
+  color: #fff;
+  padding-left: 10px;
+  border-left: 4px solid #88d200;
+}
+
+#headerdr #logo img {
+  padding: 0;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  #headerdr #logo h1 {
+    font-size: 28px;
+  }
+  #headerdr #logo img {
+    max-height: 40px;
+  }
+}
+/*--------------------------------------------------------------
+# Banner
+--------------------------------------------------------------*/
+.bannerdr-area {
+    
+    background-size: cover;
+  }
+  .bannerdr-area .overlay-bg {
+    background-color:  rgba(191, 191, 191, 1);
+  }
+  
+  .bannerdr-content {
+    margin-top: -90px;
+    text-align: center;
+  }
+  
+  .bannerdr-content h1 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1em;
+    margin-top: 20px;
+  }
+  
+  .bannerdr-content h1 span {
+    font-weight: 700;
+  }
+  
+  @media (max-width: 991.98px) {
+    .bannerdr-content h1 {
+      font-size: 36px;
+    }
+  }
+  
+  @media (max-width: 991.98px) {
+    .bannerdr-content h1 br {
+      display: none;
+    }
+  }
+  
+  @media (max-width: 1199.98px) {
+    .bannerdr-content h1 {
+      font-size: 45px;
+    }
+  }
+  
+  @media (max-width: 414px) {
+    .bannerdr-content h1 {
+      font-size: 32px;
+    }
+  }
+  
+  .bannerdr-content h6 {
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  @media (max-width: 1280px) {
+    .bannerdr-content br {
+      display: none;
+    }
+  }
+  
+  @media (max-width: 763px) {
+    .bannerdr-content p {
+      color: #222;
+    }
+  }
